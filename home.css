@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html {}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+   
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    backdrop-filter: blur(20px);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation {
+    gap: 25px;
+}
+
+.login-btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ffffff;
+}
+
+.main-img {
+    height: 100vh;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+.bg {
+    background:  url("https://static.vecteezy.com/system/resources/previews/002/917/931/original/best-nature-location-with-house-and-mountain-lake-landscape-illustration-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.main-text {
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.btn-card {
+    padding: 12px 10px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.btn-join {
+    z-index: 2;
+    background-color: #c2e854;
+    box-shadow: #c3e85463 0px 13px 27px -5px, #c3e85425 0px 8px 16px -8px;
+    cursor: pointer;
+}
+
+.btn-join-mentor {
+    z-index: 2;
+    background-color: #053245;
+    box-shadow: #05324563 0px 13px 27px -5px, #05324525 0px 8px 16px -8px;
+    cursor: pointer;
+}
+
+.btn-scroll {
+    cursor: pointer;
+    padding: 12px 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9528186274509804) 30%, rgba(39, 42, 55, 0) 100%);
+    transform: rotate(90deg);
+}
+
+.partners {
+    height: 40vh;
+}
+
+.info {
+    min-height: 70vh;
+}
+
+.partner-list {
+    gap: 15px;
+}
